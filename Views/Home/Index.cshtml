@@ -1,0 +1,81 @@
+﻿@*@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+*@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+
+
+</head>
+<body style="background-color:darkgrey">
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/images/4.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+                <div class="carousel-caption">
+                    <h3>Welcome Aboard!</h3>
+                    <p>We had such a great time.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/5.jpg" alt="airplane" class="d-block" style="width:100%; height:auto">
+                <div class="carousel-caption">
+                    <h3>Helsinki</h3>
+                    <p style="color: white">Thank you, Helsinki! We had a great time and memories!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/3.jpg" alt="New York" class="d-block" style="width:100%">
+                <div class="carousel-caption">
+                    <h3>Thank you!</h3>
+                    <p> We look forward to welcoming you on board soon!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <div class="container-fluid mt-3">
+        <h3 style="font-size:50px" <b> Start your Journey with us! </b> </h3>
+        <p style="font-size: larger">
+            Welcome aboard! At our flight company, we believe that your journey starts the moment you step into our planes. We are dedicated to providing you with an unforgettable travel experience that will leave you feeling refreshed, relaxed, and ready to take on the world.
+
+            Our team of experienced pilots and friendly cabin crew are here to ensure that every aspect of your journey is smooth, comfortable, and hassle-free. From the moment you check in to the moment you arrive at your destination, we strive to make your journey as enjoyable and stress-free as possible.
+
+            So whether you're embarking on a new adventure or simply taking a break from the hustle and bustle of everyday life, start your journey with us and let us take you to new heights. We look forward to welcoming you on board soon!
+        </p>
+    </div>
+
+</body>
+
+
+</html>
